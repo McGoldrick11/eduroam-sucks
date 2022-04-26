@@ -9,3 +9,6 @@ reconnect = "netsh wlan connect ssid=eduroam name=eduroam"
 subprocess.run(reconnect, capture_output=True, text=True).stdout
 # restart the wifi connection
 
+ping = "ping canvas.vt.edu"
+subprocess.run(ping, capture_output=True, text=True).stdout
+
