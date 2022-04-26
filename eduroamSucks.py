@@ -11,4 +11,4 @@ subprocess.run(reconnect, capture_output=True, text=True).stdout
 
 ping = "ping canvas.vt.edu"
 subprocess.run(ping, capture_output=True, text=True).stdout
-
+#ping the site to make sure connection established

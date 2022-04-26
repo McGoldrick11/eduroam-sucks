@@ -1,0 +1,4 @@
+1- navigate to folder with python script
+2- shift+right click > open PowerShell here
+3- run this in powershell: 
+pyinstaller --onefile -w 'eduroamSucks.py'
