@@ -2,3 +2,5 @@
 2- shift+right click > open PowerShell here
 3- run this in powershell: 
 pyinstaller --onefile -w 'eduroamSucks.py'
+
+4- navigate to dist folder to find your exe
